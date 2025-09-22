@@ -74,19 +74,19 @@
 <body>
 	<!-- ШАПКА -->
     <header>
-        <div class="logo">Лого</div>
+        <div class="logo-container">
+			<img src = "flowers.webp" alt = "Логотип" class = "round-logo">
+		</div>
         <h1>Название сайта</h1>
         <nav>
             <ul>
-                <li><a href="#">Ссылка меню 1</a></li>
-                <li><a href="#">Ссылка меню 2</a></li>
-                <li><a href="#">Ссылка меню 3</a></li>
+                <li><a href="#list-section">Гиперссылки</a></li>
+                <li><a href="#table-section">Таблица</a></li>
+                <li><a href="#form-section">Форма</a></li>
             </ul>
         </nav>
     </header>
 	<!-- СОДЕРЖИМОЕ -->
-    <h1>Задание по HTML: Гиперссылки и формы</h1>
-   
     <h2>Список гиперссылок</h2>
     <ul>
         <li>1)<a href="http://kubsu.ru/">Абсолютная гиперссылка на главную страницу сайта kubsu.ru</a></li>
@@ -131,7 +131,7 @@
         <p>Это фрагмент, на который ведет одна из ссылок выше.</p>
     </div>
 	<!-- Таблица -->
-    <section>
+    <section id = "table-section">
         <h2>Таблица</h2>
         <table border = "1" style = "wigth: 100%; border-collapse;">
             <tr>
@@ -239,3 +239,4 @@
 </body>
 
 </html>
+
